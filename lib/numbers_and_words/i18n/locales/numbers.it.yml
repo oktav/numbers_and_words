@@ -1,7 +1,43 @@
 it:
   numbers:
-    ones: [zero, uno, due, tre, quattro, cinque, sei, sette, otto, nove]
+    ones:
+      apocopated: un
+      not_apocopated: [zero, uno, due, tre, quattro, cinque, sei, sette, otto, nove]
+    # ones: [zero, uno, due, tre, quattro, cinque, sei, sette, otto, nove]
     teens: [_, undici, dodici, tredici, quattordici, quindici, sedici, diciasette, diciotto, diciannove]
     tens: [_, dieci, venti, trenta, quaranta, cinquanta, sessanta, settanta, ottanta, novanta]
     hundreds: cento
-    mega: [_, mille, milione, miliardo, triliardo, quadrillion, quintillion, sextillion, septillion, octillion, nonillion, decillion]
+    mega: [_, thousands, millions, billions, trillions, quadrillions, quintillions, sextillions, septillions, octillions, nonillions, decillions]
+    thousands:
+      one: mille
+      other: mila
+    millions:
+      one: milione
+      other: milioni
+    billions:
+      one: miliardo
+      other: miliardi
+    trillions:
+      one: triliardo
+      other: triliardi
+    quadrillions:
+      one: quadrillion
+      other: quadrillioni
+    quintillions:
+      one: quintillion
+      other: quintillioni
+    sextillions:
+      one: sextillion
+      other: sextillioni
+    septillions:
+      one: septillion
+      other: septillioni
+    octillions:
+      one: octillion
+      other: octillioni
+    nonillions:
+      one: nonillion
+      other: nonillioni
+    decillions:
+      one: decillion
+      other: decillioni
